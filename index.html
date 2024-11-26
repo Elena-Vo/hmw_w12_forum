@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class = "forum">
+      <div class = "left-wrapper">
+        <div class="">
+          <label for="name">Имя</label>
+          <input type="text" id = "name" placeholder="от 4 до 10 символов">
+        </div>
+        <div>
+          <label for="src">Ссылка на аватар</label>
+          <input type="text" id = "src" placeholder="формат https://...jpg(png)">
+        </div>
+        
+        <div>
+          <label for="comment">Комментарий</label>
+          <textarea type="text" id = "comment" placeholder="комментарий" rows="7" required></textarea>
+        </div>
+        <button class = "btn">Отправить</button>
+      </div>
+      
+      <div class = "right-wrapper">
+        
+        <div class ="output">
+          <div><img class="outputAvatar" alt="avatar"></div>
+          
+          <div class="name-comment">
+            <p>Имя:</p>
+            <p class="outputName"></p>
+            <p>Комментарий:</p>
+            <div class="comment-wrapper"><p class = "outputComment"></p></div>
+            
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+      
+      
+
+      
+
+    <script src="js.js"></script>
+  </body>
+</html>

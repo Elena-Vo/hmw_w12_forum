@@ -1,0 +1,50 @@
+.forum {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.left-wrapper {
+  width: 350px;
+  /* text-align: center; */
+  padding-left: 10px;
+}
+label {
+  display: block;
+  text-align: left;
+  
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.right-wrapper {
+  display: none;
+}
+
+.output {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px
+}
+
+img {
+  object-fit: contain;
+}
+
+
+.outputAvatar {
+  width: 180px;
+  height: 200px;
+}
+
+.comment-wrapper{
+  max-width: 350px;
+  padding: 5px;
+  white-space: normal;
+  word-wrap:break-word;
+  border: 1px solid black
+}
